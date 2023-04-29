@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const NewsLayout = () => {
     return (
-        <div>
+        <div className="my-4">
             <Container>
                 <Row>
                     <Col lg={9}><Outlet></Outlet></Col>

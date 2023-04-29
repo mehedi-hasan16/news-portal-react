@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import moment from "moment";
 import { Card, Image } from "react-bootstrap";
 import { FaEye, FaRegBookmark, FaRegStar, FaShareAlt, FaStar } from "react-icons/fa";
@@ -37,7 +38,7 @@ const NewsCard = ({ news }) => {
                             placeholderSymbol={<FaStar className="text-warning"></FaStar>}
                             fullSymbol={<FaStar></FaStar>}
                         />
-                        <span>{number}</span>
+                        <span> {number}</span>
                     </div>
                     <div>
                         <FaEye></FaEye> {total_view}
