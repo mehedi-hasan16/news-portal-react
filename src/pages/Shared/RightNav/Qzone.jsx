@@ -5,7 +5,7 @@ import qzone3 from '../../../assets/qZone3.png'
 const Qzone = () => {
     return (
         <div className='bg-secondary text-center py-3 my-3'>
-            <h4>Q-Zone</h4>
+            <h4 className='text-white'>Q-Zone</h4>
             <div>
             <img src={qzone1} alt="" />
             <img src={qzone2} alt="" />
